@@ -38,8 +38,8 @@ export default function AINameAssistant({ onExtract }) {
         <span className="text-xs text-gray-500">Optional</span>
       </div>
       <p className="text-xs text-gray-600 mb-3">
-        Paste or describe the situation (e.g., "My mother, Jane Q. Doe, passed away...").
-        The assistant will pull out the decedent’s name and fill it in.
+        Paste or describe the situation (e.g., &ldquo;My mother, Jane Q. Doe, passed away...&rdquo;).
+        The assistant will pull out the decedent&rsquo;s name and fill it in.
       </p>
       <textarea
         value={text}

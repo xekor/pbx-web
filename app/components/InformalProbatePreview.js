@@ -61,7 +61,7 @@ export default function InformalProbatePreview({ formData, totalAssetValue }) {
         <div className="flex">
           <span className="font-medium mr-2">1.</span>
           <div className="flex-1">
-            Applicant's interest in this estate is that of{' '}
+            Applicant&rsquo;s interest in this estate is that of{' '}
             <span className="font-medium border-b border-gray-300 px-1">
               {formData.petitionerRelationship || '__________'}
             </span>{' '}
@@ -124,7 +124,7 @@ export default function InformalProbatePreview({ formData, totalAssetValue }) {
         <div className="flex">
           <span className="font-medium mr-2">7.</span>
           <div className="flex-1">
-            The time limit for informal probate and appointment has not expired because not more than three years have passed since the decedent's death.
+            The time limit for informal probate and appointment has not expired because not more than three years have passed since the decedent&rsquo;s death.
           </div>
         </div>
 
@@ -133,11 +133,11 @@ export default function InformalProbatePreview({ formData, totalAssetValue }) {
             <div className="flex">
               <span className="font-medium mr-2">8.</span>
               <div className="flex-1">
-                The original of the decedent's will, dated{' '}
+                The original of the decedent&rsquo;s will, dated{' '}
                 <span className="font-medium border-b border-gray-300 px-1">
                   {formData.willDate || '__________'}
                 </span>
-                , is in the possession of the Attorney of Record and a copy is attached hereto. To the best of applicant's knowledge, neither that will nor any other will of the decedent has been the subject of a previous probate order.
+                , is in the possession of the Attorney of Record and a copy is attached hereto. To the best of applicant&rsquo;s knowledge, neither that will nor any other will of the decedent has been the subject of a previous probate order.
               </div>
             </div>
 
@@ -151,14 +151,14 @@ export default function InformalProbatePreview({ formData, totalAssetValue }) {
             <div className="flex">
               <span className="font-medium mr-2">10.</span>
               <div className="flex-1">
-                Having exercised reasonable diligence, applicant is unaware of any instrument revoking the will that is the subject of this application and believes that such will is the decedent's last will.
+                Having exercised reasonable diligence, applicant is unaware of any instrument revoking the will that is the subject of this application and believes that such will is the decedent&rsquo;s last will.
               </div>
             </div>
 
             <div className="flex">
               <span className="font-medium mr-2">11.</span>
               <div className="flex-1">
-                To the best of applicant's knowledge, the will that is the subject of this application is not part of a known series of testamentary instruments (other than wills or codicils), the latest of which does not expressly revoke the former.
+                To the best of applicant&rsquo;s knowledge, the will that is the subject of this application is not part of a known series of testamentary instruments (other than wills or codicils), the latest of which does not expressly revoke the former.
               </div>
             </div>
           </>
@@ -197,7 +197,7 @@ export default function InformalProbatePreview({ formData, totalAssetValue }) {
           <div className="flex">
             <span className="font-medium mr-2">2.</span>
             <div className="flex-1">
-              The decedent's will, dated{' '}
+              The decedent&rsquo;s will, dated{' '}
               <span className="font-medium border-b border-gray-300 px-1">
                 {formData.willDate || '__________'}
               </span>

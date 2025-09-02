@@ -12,7 +12,9 @@
       "Read(/Users/hectorlopez/Downloads/**)",
       "WebFetch(domain:www.utcourts.gov)",
       "Read(/Users/hectorlopez/Downloads/**)",
-      "Read(/Users/hectorlopez/Downloads/**)"
+      "Read(/Users/hectorlopez/Downloads/**)",
+      "Bash(git push:*)",
+      "Bash(gh repo create:*)"
     ],
     "deny": [],
     "ask": []

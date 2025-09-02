@@ -51,7 +51,7 @@ export default function SmallEstatePreview({ formData, totalAssetValue }) {
         <div className="flex">
           <span className="font-medium mr-2">(2)</span>
           <div className="flex-1">
-            I am the decedent's successor and entitled to payment or delivery of the property;
+            I am the decedent&rsquo;s successor and entitled to payment or delivery of the property;
           </div>
         </div>
 
@@ -79,7 +79,7 @@ export default function SmallEstatePreview({ formData, totalAssetValue }) {
         <div className="flex">
           <span className="font-medium mr-2">(6)</span>
           <div className="flex-1">
-            The decedent's successor is entitled to payment or delivery of any indebtedness owed to the decedent, any tangible personal property belonging to the decedent, and any instruments evidencing a debt, obligation, stock, or chose in action belonging to the decedent; and
+            The decedent&rsquo;s successor is entitled to payment or delivery of any indebtedness owed to the decedent, any tangible personal property belonging to the decedent, and any instruments evidencing a debt, obligation, stock, or chose in action belonging to the decedent; and
           </div>
         </div>
 

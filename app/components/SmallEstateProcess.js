@@ -139,7 +139,7 @@ export default function SmallEstateProcess() {
   const renderDecedentName = () => (
     <div className="space-y-6">
       <h2 className="text-2xl font-semibold text-gray-900">
-        Deceased Person's Name
+        Deceased Person&rsquo;s Name
       </h2>
       <p className="text-gray-600">
         Enter the full legal name as it appears on official documents.
@@ -629,7 +629,7 @@ export default function SmallEstateProcess() {
         {formData.affiantCapacity === 'agent_of_successor' && (
           <div className="md:col-span-2">
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Successor's Name *
+              Successor&rsquo;s Name *
             </label>
             <input
               type="text"
@@ -681,7 +681,7 @@ export default function SmallEstateProcess() {
             required
           />
           <label htmlFor="elapsed30Days" className={`text-sm ${formData.elapsed30DaysBool ? 'text-gray-700' : 'text-gray-400'}`}>
-            <span className="font-medium">30-day waiting period:</span> At least 30 days have elapsed since the decedent's death.
+            <span className="font-medium">30-day waiting period:</span> At least 30 days have elapsed since the decedent&rsquo;s death.
             {!formData.elapsed30DaysBool && (
               <div className="text-yellow-600 mt-1">
                 ⚠️ This will be automatically checked based on the death date you entered.

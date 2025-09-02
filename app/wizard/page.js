@@ -589,7 +589,7 @@ export default function WizardPage() {
               {formData.affiantCapacity === 'agent_of_successor' && (
                 <div className="md:col-span-2">
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Successor's Name *
+                    Successor&rsquo;s Name *
                   </label>
                   <input
                     type="text"
@@ -820,7 +820,7 @@ export default function WizardPage() {
                   placeholder="$0"
                 />
                 <p className="text-xs text-gray-600 mt-1">
-                  Typically set at the value of personal property plus one year's estimated income
+                  Typically set at the value of personal property plus one year&rsquo;s estimated income
                 </p>
               </div>
             )}

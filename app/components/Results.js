@@ -133,7 +133,7 @@ export default function Results({ result, onRestart }) {
             <ul className="list-disc list-inside space-y-1 text-sm">
               <li>Consider consulting with a probate attorney</li>
               <li>Gather all estate documents and asset information</li>
-              <li>Determine if there was a will and if it's valid</li>
+              <li>Determine if there was a will and if it&rsquo;s valid</li>
               <li>Identify all heirs and beneficiaries</li>
             </ul>
           </div>

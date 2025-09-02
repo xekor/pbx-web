@@ -32,12 +32,12 @@ export default function DocumentChecklist({ formData, onComplete }) {
       title: 'Asset Documentation',
       description: 'Bank statements, account information, or other proof of assets',
       required: true,
-      notes: 'Recent statements showing account balances and deceased person\'s name'
+      notes: 'Recent statements showing account balances and deceased person&rsquo;s name'
     },
     {
       id: 'id',
       title: 'Your Government-Issued ID',
-      description: 'Driver\'s license, passport, or other official identification',
+      description: 'Driver&rsquo;s license, passport, or other official identification',
       required: true,
       notes: 'Needed for notarization and when presenting affidavit'
     }
@@ -103,7 +103,7 @@ export default function DocumentChecklist({ formData, onComplete }) {
           Document Checklist & Next Steps
         </h1>
         <p className="text-lg text-gray-600">
-          Here's everything you need to complete the small estate affidavit process:
+          Here&rsquo;s everything you need to complete the small estate affidavit process:
         </p>
       </div>
 

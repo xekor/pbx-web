@@ -24,3 +24,124 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fix form text colors specifically */
+form input, form select, form textarea, form label {
+  color: #000000 !important;
+}
+
+/* Fix specific text classes in forms */
+form .text-sm, form .font-medium, form .text-gray-700, form .text-gray-600 {
+  color: #000000 !important;
+}
+
+/* Fix specific input types */
+input[type="text"], input[type="date"], input[type="tel"], input[type="number"] {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+/* Fix select dropdowns */
+select {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+select option {
+  color: #000000 !important;
+}
+
+/* Style dropdown placeholder options */
+select option[value=""] {
+  color: #9ca3af !important;
+}
+
+/* Style the select element when showing placeholder */
+select:invalid,
+select[value=""] {
+  color: #9ca3af !important;
+}
+
+/* More specific targeting for empty selects */
+select:not(:valid) {
+  color: #9ca3af !important;
+}
+
+/* Fix placeholder text */
+input::placeholder, textarea::placeholder {
+  color: #9ca3af !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #9ca3af !important;
+}
+
+/* More specific placeholder rules */
+input[type="text"]::placeholder, 
+input[type="number"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="date"]::placeholder,
+textarea::placeholder {
+  color: #9ca3af !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #9ca3af !important;
+}
+
+/* Override any webkit autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #000000 !important;
+}
+
+/* Dark mode input and label text */
+@media (prefers-color-scheme: dark) {
+  form input, form select, form textarea, form label {
+    color: #f9fafb !important;
+  }
+  
+  form .text-sm, form .font-medium, form .text-gray-700, form .text-gray-600 {
+    color: #f9fafb !important;
+  }
+  
+  input[type="text"], input[type="date"], input[type="tel"], input[type="number"] {
+    color: #f9fafb !important;
+  }
+  
+  select {
+    color: #f9fafb !important;
+  }
+  
+  select option {
+    color: #f9fafb !important;
+  }
+  
+  /* Style dropdown placeholder options in dark mode */
+  select option[value=""] {
+    color: #6b7280 !important;
+  }
+  
+  /* Style the select element when showing placeholder in dark mode */
+  select:invalid,
+  select[value=""] {
+    color: #6b7280 !important;
+  }
+  
+  /* More specific targeting for empty selects in dark mode */
+  select:not(:valid) {
+    color: #6b7280 !important;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #6b7280 !important;
+    -webkit-text-fill-color: #6b7280 !important;
+  }
+  
+  input[type="text"]::placeholder, 
+  input[type="number"]::placeholder,
+  input[type="tel"]::placeholder,
+  input[type="date"]::placeholder,
+  textarea::placeholder {
+    color: #6b7280 !important;
+    opacity: 1 !important;
+    -webkit-text-fill-color: #6b7280 !important;
+  }
+}

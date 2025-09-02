@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## AI Assistant (Optional)
+
+- Feature: On Step 1, an optional assistant can extract the decedent's full name from a natural-language description.
+- API: `POST /api/ai/extract-name` with `{ text: string }` returns `{ name: string }`.
+- Provider selection via env:
+  - `AI_PROVIDER=openai` uses OpenAI (set `OPENAI_API_KEY` and optional `OPENAI_MODEL`, default `gpt-4o-mini`).
+  - `AI_PROVIDER=wizardd` posts to `WIZARDD_BASE_URL` (default `http://localhost:8000`) with payload `{ task: 'extract-name', text }` and expects `{ name }`.
+  - Default is a local heuristic (no network), useful for development.
+
+Security & privacy: Avoid sending sensitive identifiers in free text. If you require on-prem processing, use the `wizardd` provider to point to your local model server.

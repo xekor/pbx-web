@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Read(/Users/hectorlopez/Documents/github/bid-proposal/**)",
+      "Read(/Users/hectorlopez/Documents/github/bid-proposal/**)",
+      "Read(/Users/hectorlopez/Documents/github/bid-proposal/app/**)",
+      "Read(/Users/hectorlopez/Documents/github/bid-proposal/app/create/**)",
+      "WebSearch",
+      "WebFetch(domain:le.utah.gov)",
+      "WebFetch(domain:legacy.utcourts.gov)",
+      "Read(/Users/hectorlopez/Downloads/**)",
+      "WebFetch(domain:www.utcourts.gov)",
+      "Read(/Users/hectorlopez/Downloads/**)",
+      "Read(/Users/hectorlopez/Downloads/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -170,7 +170,7 @@ export default function InformalProbatePreview({ formData, totalAssetValue }) {
             The person whose appointment as personal representative is sought is applicant. Such person is qualified to act as such and has priority because there is no person with a higher or equal priority for appointment.
             {formData.willExists && (
               <div className="mt-1">
-                The person whose appointment as personal representative is sought has priority for appointment as the person nominated in, or pursuant to the exercise of a power conferred by, the decedent's will.
+                The person whose appointment as personal representative is sought has priority for appointment as the person nominated in, or pursuant to the exercise of a power conferred by, the decedent&rsquo;s will.
               </div>
             )}
           </div>

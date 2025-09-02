@@ -11,7 +11,7 @@ export default function Results({ result, onRestart }) {
             </svg>
           </div>
           <div className="ml-3">
-            <h2 className="text-xl font-semibold text-green-900">Good news! You likely don't need probate.</h2>
+            <h2 className="text-xl font-semibold text-green-900">Good news! You likely don&rsquo;t need probate.</h2>
           </div>
         </div>
         
@@ -59,7 +59,7 @@ export default function Results({ result, onRestart }) {
         
         <div className="text-blue-700 space-y-3">
           <p>
-            You qualify for Utah's simplified small estate process! This is faster and less expensive than full probate.
+            You qualify for Utah&rsquo;s simplified small estate process! This is faster and less expensive than full probate.
           </p>
           
           <div className="bg-white p-4 rounded border">
@@ -117,7 +117,7 @@ export default function Results({ result, onRestart }) {
         
         <div className="text-amber-700 space-y-3">
           <p>
-            Based on your answers, you'll need to go through the full probate process in Utah.
+            Based on your answers, you&rsquo;ll need to go through the full probate process in Utah.
           </p>
           
           <div className="bg-white p-4 rounded border">
@@ -172,7 +172,7 @@ export default function Results({ result, onRestart }) {
         
         <div className="text-yellow-700 space-y-4">
           <p>
-            Since it's been less than 30 days since the death, you can either wait to use 
+            Since it&rsquo;s been less than 30 days since the death, you can either wait to use 
             the small estate process or proceed with full probate now.
           </p>
           
@@ -202,7 +202,7 @@ export default function Results({ result, onRestart }) {
       
       <div className="mt-6 space-y-3">
         <button className="w-full bg-blue-600 text-white p-4 rounded-lg hover:bg-blue-700">
-          I'll wait for small estate process
+          I&rsquo;ll wait for small estate process
         </button>
         <button className="w-full bg-yellow-600 text-white p-4 rounded-lg hover:bg-yellow-700">
           Start full probate now

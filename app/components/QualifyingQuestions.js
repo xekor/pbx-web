@@ -55,7 +55,7 @@ export default function QualifyingQuestions({ onComplete }) {
         return (
           <div className="space-y-6">
             <h2 className="text-2xl font-semibold text-gray-900">
-              Let's determine if you need probate
+              Let&rsquo;s determine if you need probate
             </h2>
             <p className="text-gray-600">
               Did the person who died own any assets in their name alone?
@@ -85,10 +85,10 @@ export default function QualifyingQuestions({ onComplete }) {
         return (
           <div className="space-y-6">
             <h2 className="text-2xl font-semibold text-gray-900">
-              What's the total value of probate assets?
+              What&rsquo;s the total value of probate assets?
             </h2>
             <p className="text-gray-600">
-              Count only assets that were in the deceased person's name alone.
+              Count only assets that were in the deceased person&rsquo;s name alone.
             </p>
             <div className="space-y-3">
               <button
@@ -143,7 +143,7 @@ export default function QualifyingQuestions({ onComplete }) {
                 Full probate required
               </h2>
               <p className="text-blue-700 mt-2">
-                With assets over $100,000, you'll need to go through the full probate process in Utah.
+                With assets over $100,000, you&rsquo;ll need to go through the full probate process in Utah.
               </p>
             </div>
             <button
@@ -181,7 +181,7 @@ export default function QualifyingQuestions({ onComplete }) {
                 className="w-full p-4 text-left border border-gray-300 rounded-lg hover:border-blue-500 hover:bg-blue-50"
               >
                 <div className="font-medium">Less than 30 days ago</div>
-                <div className="text-sm text-gray-500">You'll need to wait or use full probate</div>
+                <div className="text-sm text-gray-500">You&rsquo;ll need to wait or use full probate</div>
               </button>
             </div>
           </div>
